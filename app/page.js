@@ -10,23 +10,23 @@ export default function Home() {
           Kaival Patel
         </nav>
         <section className={"flex-grow flex items-center text-xl justify-start"}>
-          <TypeAnimation
-              sequence={[
-                // Same substring at the start will only be typed out once, initially
-                'We produce food for Mice',
-                1000, // wait 1s before replacing "Mice" with "Hamsters"
-                'We produce food for Hamsters',
-                1000,
-                'We produce food for Guinea Pigs',
-                1000,
-                'We produce food for Chinchillas',
-                1000,
-              ]}
-              wrapper="span"
-              speed={50}
-              style={{fontSize: '2em', display: 'inline-block'}}
-              repeat={Infinity}
-          />
+            <TypeAnimation
+                sequence={[
+                    'As a computer science student,',
+                    1000,
+                    'As a TensorFlow enthusiast,',
+                    1000,
+                    'Aspiring in full-stack development,',
+                    1000,
+                    'Eager to dive into iOS app development,',
+                    1000,
+                    'Passionate about game development,',
+                    1000,
+                ]}
+                speed={50}
+                style={{ fontSize: '2em' }}
+                repeat={Infinity}
+            />
         </section>
         <footer className={"flex justify-center items-center"}>
           contact me!!
