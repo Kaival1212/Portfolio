@@ -12,17 +12,18 @@ export default function Home() {
         <section className={"flex-grow flex items-center text-xl justify-start"}>
             <TypeAnimation
                 sequence={[
-                    'As a computer science student,',
+                    "I'm a Computer Science student with a passion for learning.",
                     1000,
-                    'As a TensorFlow enthusiast,',
-                    1000,
-                    'Aspiring in full-stack development,',
-                    1000,
-                    'Eager to dive into iOS app development,',
-                    1000,
-                    'Passionate about game development,',
-                    1000,
+                    'I have experience with AI using TensorFlow.',
+                    500,
+                    'I am exploring the exciting world of Full-stack development.',
+                    500,
+                    'I am eager to dive into iOS app development.',
+                    500,
+                    'I am also interested in game development.',
+                    500,
                 ]}
+
                 speed={50}
                 style={{ fontSize: '2em' }}
                 repeat={Infinity}
