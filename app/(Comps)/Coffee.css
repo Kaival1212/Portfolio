@@ -69,7 +69,6 @@
 }
 
 .cup {
-    height: 0px;
     width: 30px;
     border-top: 70px solid #EDE9D7;
     border-left: 10px solid transparent;
@@ -83,7 +82,7 @@
 .coff {
     height: 30px;
     width: 8px;
-    border-radius: 0px 0px 15px 15px;
+    border-radius: 0 0 15px 15px;
     background-color: #E06526;
     position: relative;
     bottom: 23px;
@@ -117,10 +116,9 @@
 }
 
 .shadow {
-    height: 0px;
     width: 6px;
     border-top: 70px solid #DAD1B7;
-    border-left: 0px solid transparent;
+    border-left: 0 solid transparent;
     border-right: 10px solid transparent;
     position: relative;
     bottom: 70px;
@@ -189,7 +187,7 @@
 .b3 {
     background-color: white;
     height: 13px;
-    border-radius: 0px 0px 5px 5px;
+    border-radius: 0 0 5px 5px;
     width: 45px;
     position: relative;
 }
@@ -270,7 +268,7 @@
     position: relative;
     height: 5px;
     width: 5px;
-    border-radius: 2.5px;
+    border-radius: 3px;
     background-color: #663C16;
 }
 
@@ -313,7 +311,7 @@
         position: relative;
         height: 8px;
         width: 3px;
-        border-radius: 4
+        border-radius: 4px;
     }
 .btn1{
     background-color: white;

@@ -1,7 +1,6 @@
 "use client"
 
 import {TypeAnimation} from "react-type-animation";
-import Image from "next/image";
 import { FaGithub ,FaLinkedin } from "react-icons/fa";
 import Coffee from "./(Comps)/Coffee";
 import Link from "next/link";
@@ -41,10 +40,10 @@ export default function Home() {
         </section>
         <footer className={"flex mb-3 ml-3 gap-3"}>
            <Link href={"https://github.com/Kaival1212"} replace={false} target="_blank">
-            <FaGithub height={"1000"} width={"1000"}/>
+               <FaGithub/>
            </Link>
-            <Link href={"https://www.linkedin.com/in/kaival-patel-6a3614252/"}replace={false} target="_blank">
-            <FaLinkedin />
+            <Link href={"https://www.linkedin.com/in/kaival-patel-6a3614252/"} replace={false} target="_blank">
+                <FaLinkedin/>
             </Link>
         </footer>
       </section>

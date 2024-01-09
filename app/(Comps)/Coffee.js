@@ -38,19 +38,7 @@ export  default  function  Coffee()  {
 
 
             <div className="back">
-                {/*<div className="brdr">*/}
-                {/*    <div className="d1"></div>*/}
-                {/*    <div className="d2"></div>*/}
-                {/*    <div className="d3"></div>*/}
-                {/*    <div className="d4"></div>*/}
-                {/*    <div className="d5"></div>*/}
-                {/*    <div className="d6"></div>*/}
-                {/*    <div className="d7"></div>*/}
-                {/*    <div className="d8"></div>*/}
-                {/*    <div className="d9"></div>*/}
-                {/*    <div className="d10"></div>*/}
-                {/*    <div className="d11"></div>*/}
-                {/*</div>*/}
+                ∂
                 <div className="cup">
                     <div className="shadow"></div>
                     <div className="u"></div>
